@@ -72,11 +72,9 @@ class MainActivity : AppCompatActivity(), DataAdapter.Callback {
 
     private fun getDataDummy() {
         var dataList = ArrayList<DataModel>()
-        dataList.add(DataModel(1,"Belajar Java", "Minggu ini baru masuk bagian variable"))
-        dataList.add(DataModel(1,"Belajar Java", "Minggu ini baru masuk bagian variable"))
-        dataList.add(DataModel(1,"Belajar Java", "Minggu ini baru masuk bagian variable"))
-        dataList.add(DataModel(1,"Belajar Java", "Minggu ini baru masuk bagian variable"))
-        dataList.add(DataModel(1,"Belajar Java", "Minggu ini baru masuk bagian variable"))
+        dataList.add(DataModel(1,"Hari Senin", "Presentasi PAB"))
+        dataList.add(DataModel(1,"Hari Senin", "Presentasi PAB"))
+        dataList.add(DataModel(1,"Hari Senin", "Presentasi PAB"))
 
         var dataAdapter = DataAdapter(this)
         rv_data.apply {
